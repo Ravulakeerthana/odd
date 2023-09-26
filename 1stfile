@@ -1,0 +1,22 @@
+
+package com.anp.jsp;
+
+public class Demo3 {
+
+	public static void main (String args[]) {
+		
+		
+	int sum=0;
+	
+		for (int i=7; i<=21; i=i+2) {
+			if(i % 2!=0) {
+		     sum += i;
+			}
+			System.out.println(i);
+			}
+	
+	System.out.println(" the sum of  odd numbers from  7 to 21: "+ sum);
+	
+		
+	}
+}
